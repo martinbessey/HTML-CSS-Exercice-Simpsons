@@ -1,0 +1,54 @@
+@media screen and (max-width: 600px) {
+    
+    body{
+        margin:0;
+    }
+    .banner{
+        width:100%;
+        height: 300px;
+        overflow: hidden;
+        margin:0;
+    }
+    .banner img{
+        width:400px;
+    }
+    nav{
+    height: 200px;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }  
+    main{
+    flex-direction: column; 
+    justify-content: center;
+    padding-right: 5%; 
+    }  
+    h1{
+        transform:none;
+    }
+    article{
+        width: 100%;
+        padding:0;
+    }
+    .gallery{
+        flex-direction: column;
+    }
+    .gallery figure, .gallery img{
+        width: 100%;
+        height: 500px;
+    }
+    .gallery figure{
+     margin-bottom:10%;
+    }
+    aside{
+        width:100%;
+        margin:0;
+    }
+    .asidearticle{
+        padding-left: 2%;
+        padding-right: 2%;
+
+    }
+}
